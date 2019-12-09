@@ -1,5 +1,6 @@
 .body {
     background-color:white;
+    margin: 50px ;
 }
 
 
@@ -20,7 +21,8 @@
     font-family: 'Gilroy', sans-serif;
     font-weight: 900;
 /*    padding: 50px;*/
-    margin: 50px ;
+/*    margin: 50px ;*/
+    margin: 50px 25px 50px 0 ;
     text-align: right;
     width:auto;
     height:0px;
@@ -134,8 +136,21 @@ p {
     font-family: "Gilroy", sans-serif;
     padding-left: 50px;
     font-weight: 300;
-
 }
 
+header {
+    display: grid ;
+    grid-template-columns: 162px 1fr ;
+    margin-bottom: 25px ;
+}
+
+/*
+header nav {
+    text-align: right ;
+}
+*/
 
 
+div,header,article,blockquote,h1,h2,h3,h4,h5,footer {
+/*    border: 2px solid red ;*/
+}
