@@ -1,0 +1,143 @@
+<style type="text/css">
+.body {
+    background-color:white;
+}
+
+
+/*GRID START */
+.main {
+    display:grid;
+    grid-template-columns: [start] 1fr 1fr 1fr 1fr[end];
+    /*                grid-gap:*/
+    grid-auto-rows: minmax (50px, auto);
+    /*                align-content:start;*/
+}
+
+/*GRID END*/
+
+/* --------- NAV BAR*/
+
+.nav-bar {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 900;
+/*    padding: 50px;*/
+    margin: 50px ;
+    text-align: right;
+    width:auto;
+    height:0px;
+}
+.nav-image {
+    padding: 0px;
+    margin: 50px ;
+    width:auto;
+    height:auto;
+}
+
+.nav-bar a {
+    text-align: right;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left:36px;
+}
+
+.nav-bar a:hover {
+
+    background-color: none;
+    text-decoration: none;
+    color: red;
+}
+
+
+.nav-bar a:active {
+    background-color: none;
+    color:red;
+    text-decoration: none;
+}
+
+/* --------- END NAV LINKS*/
+
+
+
+
+/*START FOOTER*/
+.footer {
+/*    position:absolute;*/
+    width:100%;
+    height:40px;
+/*
+    left:0;
+    bottom:0;
+*/
+    background-color:black;
+    color:white;
+    padding: 0px;
+}
+
+.icons {
+    float:left;
+    padding-left:50px;
+    padding-top:10px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 10px;
+    text-align:right;
+}
+
+.copy{
+    padding-right:50px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 10px;
+    text-align:right;
+    font-weight: bold;
+}
+
+/*END FOOTER*/
+
+
+.main-container{
+    min-height:100vh;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    padding-bottom: 30px;  
+}
+
+.headerimage{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    height: auto;
+    margin-bottom: 54px;
+
+}
+
+.about {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: "Gilroy", sans-serif;
+    padding-left: 50px;
+    font-weight:900;
+}
+
+.news{
+      grid-column-start: 3;
+    grid-column-end: 4;
+    font-family: "Gilroy", sans-serif;
+    padding-left: 50px;
+    font-weight:900;
+    
+}
+
+p {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: "Gilroy", sans-serif;
+    padding-left: 50px;
+    font-weight: 300;
+
+}
+
+
+
+</style>
