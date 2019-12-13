@@ -20,7 +20,7 @@
 .nav-bar {
     font-family: 'Gilroy', sans-serif;
     font-weight: 900;
-    margin: 50px 25px 50px 0 ;
+    margin: 50px 100px 88px 0 ;
     text-align: right;
     width:auto;
     height:0px;
@@ -31,6 +31,8 @@
     margin: 50px ;
     width:auto;
     height:auto;
+    
+ 
 }
 
 .nav-bar a {
@@ -108,7 +110,7 @@
     grid-column-end: 5;
     width: 100%;
     height: auto;
-    margin: 88px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
     padding: 0px;
 }
 
