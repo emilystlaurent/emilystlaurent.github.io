@@ -2,16 +2,12 @@
     background-color:white;
 }
 
-
 /*GRID START */
 .main {
     display:grid;
     grid-template-columns: [start] 1fr 1fr 1fr 1fr[end];
-    /*                grid-gap:*/
     grid-auto-rows: minmax (50px, auto);
-    /*                align-content:start;*/
 }
-
 /*GRID END*/
 
 
@@ -19,21 +15,17 @@
 
 /* --------- NAV BAR*/
 
+
+
 .nav-bar {
     font-family: 'Gilroy', sans-serif;
     font-weight: 900;
-
-    /*    padding: 50px;*/
-    margin: 50px ;
-
-/*    padding: 50px;*/
-/*    margin: 50px ;*/
     margin: 50px 25px 50px 0 ;
-
     text-align: right;
     width:auto;
     height:0px;
 }
+
 .nav-image {
     padding: 0px;
     margin: 50px ;
@@ -51,7 +43,6 @@
 }
 
 .nav-bar a:hover {
-
     background-color: none;
     text-decoration: none;
     color: red;
@@ -71,25 +62,23 @@
 
 /*START FOOTER*/
 .footer {
-    /*    position:absolute;*/
+    grid-column-start: 1;
+    grid-column-end: 5;
     width:100%;
     height:40px;
-    /*
-    left:0;
-    bottom:0;
-    */
-    background-color:black;
-    color:white;
+    background-color:#000;
+    color:#fff;
     padding: 0px;
     margin:100px 0px 0px 0px;
 }
 
 .icons {
     float:left;
-    padding: 10px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
     font-family: 'Gilroy',sans-serif;
     font-size: 10px;
     text-align:right;
+    margin: 0px
 }
 
 .copy{
@@ -98,8 +87,7 @@
     font-family: 'Gilroy',sans-serif;
     font-size: 10px;
     text-align:right;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 /*END FOOTER*/
@@ -111,7 +99,6 @@
     display:block;
     position:relative;
     padding:0px 0px 30px 0px;
-
 }
 
 
@@ -121,9 +108,8 @@
     grid-column-end: 5;
     width: 100%;
     height: auto;
-    margin: 0px 0px 100px 0px;
+    margin: 88px 0px 100px 0px;
     padding: 0px;
-
 }
 
 .about {
@@ -141,7 +127,6 @@
 }
 
 .newshead {
-
     padding: 0px 0px 20px 0px;
     margin: 0px 0px 0px 50px;
 }
@@ -162,7 +147,6 @@
     font-weight: 300;
     padding:0px;
     margin: 0px 50px 0px 100px;
-
 }
 
 
@@ -179,16 +163,9 @@ header {
     font-family: "Gilroy", sans-serif;
     font-weight: 300;
     padding:0px;
-    margin: 0px 100px 0px 50px;
-   
+    margin: 0px 100px 0px 50px; 
 }
 
-
-/*
-header nav {
-    text-align: right ;
-}
-*/
 
 
 
