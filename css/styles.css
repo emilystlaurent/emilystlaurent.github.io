@@ -1,6 +1,5 @@
 .body {
     background-color:white;
-    margin:0px;
 }
 
 
@@ -23,8 +22,14 @@
 .nav-bar {
     font-family: 'Gilroy', sans-serif;
     font-weight: 900;
+
     /*    padding: 50px;*/
     margin: 50px ;
+
+/*    padding: 50px;*/
+/*    margin: 50px ;*/
+    margin: 50px 25px 50px 0 ;
+
     text-align: right;
     width:auto;
     height:0px;
@@ -160,6 +165,14 @@
 
 }
 
+
+header {
+    display: grid ;
+    grid-template-columns: 162px 1fr ;
+    margin-bottom: 25px ;
+}
+
+
 .newsp {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -171,4 +184,14 @@
 }
 
 
+/*
+header nav {
+    text-align: right ;
+}
+*/
 
+
+
+div,header,article,blockquote,h1,h2,h3,h4,h5,footer {
+/*    border: 2px solid red ;*/
+}
