@@ -9,29 +9,28 @@
     <body class="body">
 
         <!---START NAV BAR--->
-        <div>
+        <div class="wholenav">
+
             <div class="nav-image">
                 <img src="images/icon-01.png">
             </div>
-        </div>
-
-        <div>
+            
             <nav class="nav-bar">
                 <a href="index.html">HOME</a>
                 <a href="events.html">UPCOMING EVENTS</a>
                 <a href="gallery.html">GALLERY</a>         <a href="contact.html">CONTACT </a>
                 <a href="http://eventbrite.com" target="_blank">BUY TICKETS </a>
-
             </nav>
+
         </div>
         <!---END NAV BAR--->
 
 
-     <h1 id="h1">Contact</h1>
+        <h1 id="h1">Contact</h1>
         <div class='main'>
 
 
-       
+
 
             <!-- START MAILING FORM-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
@@ -44,7 +43,6 @@
                     JotForm.submitError="jumpToFirstError";
                     /*INIT-END*/
                 });
-
                 JotForm.prepareCalculationsOnTheFly([null,{"name":"joinOur","qid":"1","text":"Join Our Mailing List!","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"email","qid":"3","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"name","qid":"4","text":"Name","type":"control_fullname"}]);
                 setTimeout(function() {
                     JotForm.paymentExtrasOnTheFly([null,{"name":"joinOur","qid":"1","text":"Join Our Mailing List!","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"email","qid":"3","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"name","qid":"4","text":"Name","type":"control_fullname"}]);}, 20); 
@@ -56,36 +54,38 @@
             <style type="text/css">
                 .form-label-left{
                     width:150px;
+                    font-family:"Gilroy", Helvetica, Verdana, sans-serif; !important;
+                    font-size:14px;
                 }
                 .form-line{
                     padding-top:12px;
                     padding-bottom:12px;
+                    font-family:"Gilroy", Helvetica, Verdana, sans-serif; !important;
+                    font-size:14px;
                 }
                 .form-label-right{
                     width:150px;
+                    font-family:"Gilroy", Helvetica, Verdana, sans-serif; !important;
+                    font-size:14px;
                 }
                 .form-all{
                     width:650px;
                     color:#000000 !important;
                     font-family:"Gilroy", Helvetica, Verdana, sans-serif; !important;
                     font-size:14px;
-                    
+
                 }
             </style>
 
             <style type="text/css" id="form-designer-style">
-                /* Injected CSS Code */
                 .form-label.form-label-auto {
-
                     display: block;
                     float: none;
                     text-align: left;
                     width: 100%;
-
-                } /*__INSPECT_SEPERATOR__*/
-                /* Injected CSS Code */
+                    font-family: 'Gilroy', Helvetica,sans-serif;
+                } 
             </style>
-
             <form class="jotform-form" action="https://submit.jotform.com/submit/193468352160156/" method="post" name="form_193468352160156" id="193468352160156" accept-charset="utf-8">
                 <input type="hidden" name="formID" value="193468352160156" />
                 <input type="hidden" id="JWTContainer" value="" />
@@ -98,7 +98,7 @@
                                     <h2 id="header_1" class="form-header" data-component="header">
                                         Subscribe to our newsletter
                                     </h2>
-                                   <p> Stay up to date and subscribe by signing up for our newsletter below.</p>
+                                    <p> Stay up to date and subscribe by signing up for our newsletter below.</p>
                                 </div>
                             </div>
                         </li>
@@ -155,13 +155,12 @@
                 </script>
                 <div class="formFooter-heightMask">
                 </div>
-
             </form>
 
             <!-- END MAILING FORM-->
 
 
-
+            <!--INFORMATION START-->
 
             <div class="text">
 
@@ -170,56 +169,52 @@
                 <h4 id="h4">Home.Stead Bakery and Cafe <br>
                     1448 Dorchester Ave, Dorchester, MA 02122</h4>
                 <h5 id="h5">One Block from Fields Corner T Stop</h5>
-
-
                 <h3 id="h3">Cambridge</h3> 
                 <h4 id="h4">The Lilypad<br>
-                1353 Cambridge St, Cambridge MA 02139</h4>
-
+                    1353 Cambridge St, Cambridge MA 02139</h4>
                 <h5 id="h5">15 minute walk from Central Square T Stop</h5>
-
-
-
                 <h3 id="h3">ONLINE</h3>
                 <div class="fblink">
-                <h4 id="h4"><a href=https://www.facebook.com/nowlistenherestories > Facebook</a> </h4>	
-                </div>
-                
-            </div>
-
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-            <!--FOOTER STARTS-->
-            <div class="footer"> 
-
-                <div class="icons">
-                    <a href="https://www.facebook.com/nowlistenherestories/" target="_blank"> <img src="images/facebook.png">
-                    </a> 
-
-
-                    <a href = "mailto:stories@nowlistenhere.org" target="_blank"><img src="images/mail.png">
-                    </a> 
-
-                    <p class='copy'>© Now Listen Here 2019</p>
-
+                    <h4 id="h4"><a href=https://www.facebook.com/nowlistenherestories > Facebook</a> </h4>	
                 </div>
             </div>
+            <!--INFORMATION END-->
+
+
+
+
+
+
+
+
+
+
         </div>
 
-        <!--FOOTER ENDS-->
+
+
+
+
+        <!--FOOTER STARTS-->
+        <div class="footer"> 
+            <div id="iconset">
+                <div class="icon">
+                    <a href="https://www.facebook.com/nowlistenherestories/" target="_blank"> <img src="images/facebook.png">
+                    </a> 
+                </div>
+                <div class="icon">
+                    <a href = "mailto:stories@nowlistenhere.org" target="_blank"><img src="images/emailicon.png">
+                    </a> 
+                </div>
+            </div>
+
+            <p class='copy'>© Now Listen Here 2019</p>
+
+
+        </div>
+        </div>
+
+    <!--FOOTER ENDS-->
 
     </body>
 
